@@ -1,5 +1,5 @@
 aside {
-    background-color: lightgreen;
+    background-color: lightgoldenrodyellow;
     margin-right: 1rem;
     border-radius: 2rem;
     padding: 10px;
@@ -25,7 +25,7 @@ body {
 }
 
 main{
-    background-color: aqua;
+    background-color: darkblue;
     margin: 1rem;
     margin-top: -18px;
     padding-top: 1rem;
@@ -60,7 +60,7 @@ div{
     flex-grow: 999;
     min-inline-size: 50%;
     /* när ska den byta layouten */
-    background-color: lightgreen;
+    background-color: lightgoldenrodyellow;
     padding:  10px;
     border-radius: 2rem;
 }
