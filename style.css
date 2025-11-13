@@ -1,0 +1,73 @@
+aside {
+    background-color: lightgreen;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    padding: 10px;
+}
+header {
+    background-color: lightgoldenrodyellow;
+    padding: 0.5rem;
+    
+    border-radius: 2rem;
+    border-color: black;
+    border: 1rem;
+    margin-bottom: 2rem;
+}
+.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+}
+
+main{
+    background-color: aqua;
+    margin: 1rem;
+    margin-top: -18px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 10rem;
+    border-color: black;
+    border-radius: 1rem;
+}
+.sidebar {
+    flex-basis: 15rem;
+    /* sidebareens startbred */
+    flex-grow: 1;
+}
+
+.portrait {
+    /* text-align: center; */
+    display: grid;
+    place-items: center;
+    height: 5rem;
+    border: 225rem;
+    border-radius: 2rem;
+    padding-bottom: 10rem;
+    background-color: white;
+}
+div{
+    padding-top: 1rem;
+}
+
+.not-sidebar {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+    /* när ska den byta layouten */
+    background-color: lightgreen;
+    padding:  10px;
+    border-radius: 2rem;
+}
+
+.wrapper {
+    max-width: 56rem;
+    margin-right: auto;
+    margin-left: auto;
+
+}
